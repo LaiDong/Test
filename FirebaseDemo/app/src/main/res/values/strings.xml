@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">FirebaseDemo</string>
-    <string name="name">Name</string>
-    <string name="email">Email</string>
-    <string name="action_save">Save</string>
-
-</resources>
