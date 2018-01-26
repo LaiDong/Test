@@ -14,6 +14,7 @@ import android.os.IBinder;
 import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
+import android.view.WindowManager;
 
 /**
  * Created by ld on 17/01/2018.
@@ -184,7 +185,9 @@ public class GPSTracker extends Service implements LocationListener {
         });
 
         // Showing Alert Message
-        alertDialog.show();
+        AlertDialog alert = alertDialog.create();
+        alert.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
+        alert.show();
     }
 
 

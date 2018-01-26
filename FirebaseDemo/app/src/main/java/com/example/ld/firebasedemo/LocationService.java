@@ -74,33 +74,34 @@ public class LocationService extends Service {
             User user = new User(latitude, longtitude);
 
             mFirebaseDatabase.child(userId).setValue(user);
-            Log.d("donglv", "latitude: " + latitude + " - longtitude: " + longtitude);
+            Log.d(TAG, "latitude: " + latitude + " - longtitude: " + longtitude);
         }else{
             // Can't get location.
             // GPS or network is not enabled.
             // Ask user to enable GPS/network in settings.
             gps.showSettingsAlert();
         }
+
     }
 
     private void startTimerPushLocation(){
-      /*  mTimer = new Timer();
+        mTimer = new Timer();
         mIncrementTimerTask = new TimerTask() {
             @Override
             public void run() {
-
-
+                Log.e(TAG, "run: pushLocation");
+                pushLocation();
             }
         };
-        mTimer.scheduleAtFixedRate(mIncrementTimerTask, 20*1000, 1000);*/
+        mTimer.scheduleAtFixedRate(mIncrementTimerTask, 20*1000, 20*1000);
 
-        Handler mHandler = new Handler();
+       /* Handler mHandler = new Handler();
         mHandler.postDelayed(new Runnable() {
             @Override
             public void run() {
                 Log.d(TAG, "run: pushLocation");
                 pushLocation();
             }
-        },2000);
+        },2000);*/
     }
 }
