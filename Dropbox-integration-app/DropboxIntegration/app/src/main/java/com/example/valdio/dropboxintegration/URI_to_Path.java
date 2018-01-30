@@ -1,3 +1,4 @@
+/*
 package com.example.valdio.dropboxintegration;
 
 import android.content.ContentUris;
@@ -9,9 +10,11 @@ import android.os.Environment;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 
+*/
 /**
  * Created by Valdio Veliu on 16-03-30.
- */
+ *//*
+
 public class URI_to_Path {
 
     public static String getPath(final Context context, final Uri uri) {
@@ -81,7 +84,8 @@ public class URI_to_Path {
         return null;
     }
 
-    /**
+    */
+/**
      * Get the value of the data column for this Uri. This is useful for
      * MediaStore Uris, and other file-based ContentProviders.
      *
@@ -90,7 +94,8 @@ public class URI_to_Path {
      * @param selection     (Optional) Filter used in the query.
      * @param selectionArgs (Optional) Selection arguments used in the query.
      * @return The value of the _data column, which is typically a file path.
-     */
+     *//*
+
     public static String getDataColumn(Context context, Uri uri, String selection,
                                        String[] selectionArgs) {
 
@@ -115,35 +120,44 @@ public class URI_to_Path {
     }
 
 
-    /**
+    */
+/**
      * @param uri The Uri to check.
      * @return Whether the Uri authority is ExternalStorageProvider.
-     */
+     *//*
+
     public static boolean isExternalStorageDocument(Uri uri) {
         return "com.android.externalstorage.documents".equals(uri.getAuthority());
     }
 
-    /**
+    */
+/**
      * @param uri The Uri to check.
      * @return Whether the Uri authority is DownloadsProvider.
-     */
+     *//*
+
     public static boolean isDownloadsDocument(Uri uri) {
         return "com.android.providers.downloads.documents".equals(uri.getAuthority());
     }
 
-    /**
+    */
+/**
      * @param uri The Uri to check.
      * @return Whether the Uri authority is MediaProvider.
-     */
+     *//*
+
     public static boolean isMediaDocument(Uri uri) {
         return "com.android.providers.media.documents".equals(uri.getAuthority());
     }
 
-    /**
+    */
+/**
      * @param uri The Uri to check.
      * @return Whether the Uri authority is Google Photos.
-     */
+     *//*
+
     public static boolean isGooglePhotosUri(Uri uri) {
         return "com.google.android.apps.photos.content".equals(uri.getAuthority());
     }
 }
+*/

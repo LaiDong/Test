@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -58,7 +59,8 @@ public class MainActivity extends AppCompatActivity {
             // Make sure the request was successful
             if (resultCode == RESULT_OK) {
                 //Image URI received
-                File file = new File(URI_to_Path.getPath(getApplication(), data.getData()));
+//                File file = new File(URI_to_Path.getPath(getApplication(), data.getData()));
+                File file = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/Music/ringtore hot.mp3");
                 if (file != null) {
                     //Initialize UploadTask
                     new UploadTask(DropboxClient.getClient(ACCESS_TOKEN), file, getApplicationContext()).execute();
@@ -89,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         if (ACCESS_TOKEN == null)return;
         //Select image to upload
         Intent intent = new Intent();
-        intent.setType("image/*");
+        intent.setType("application/*");
         intent.setAction(Intent.ACTION_GET_CONTENT);
         intent.putExtra(Intent.EXTRA_LOCAL_ONLY, true);
         startActivityForResult(Intent.createChooser(intent,
