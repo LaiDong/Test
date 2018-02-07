@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-72:12
 MERGED from [com.android.support:design:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3deef9a7e9cc45f5e5cb0c3a8809bb73/AndroidManifest.xml:17:1-31:12
 MERGED from [com.jakewharton:butterknife:8.8.1] /home/ld/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/f069ee9d95771f9d34785dec7cfeac3a/AndroidManifest.xml:2:1-7:12
 MERGED from [:square_layout:] /home/ld/.gradle/caches/transforms-1/files-1.1/square_layout.aar/21080555901a3569a44d9733ab9aa087/AndroidManifest.xml:2:1-11:12
@@ -21,20 +21,20 @@ MERGED from [com.android.support:support-core-utils:26.1.0] /home/ld/.gradle/cac
 MERGED from [com.android.support:support-core-ui:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/3ca403e3fef385ce6558c6292da49952/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4dfba4bd9bc6639293a7c81045499183/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ld/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3ce78b5ce0aa7ed98c65a838cc04a517/AndroidManifest.xml:17:1-30:12
-INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-72:12
 	package
 		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:3:11-51
 		INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
 		INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-72:12
 		INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-72:12
 		INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:11-69
@@ -82,8 +82,20 @@ uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:17:5-77
 	android:name
 		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:17:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:18:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:19:22-76
+uses-permission#android.location.GPS_ENABLED_CHANGE
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:20:5-74
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:20:22-72
 application
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:19:5-67:19
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:22:5-70:19
 MERGED from [com.android.support:design:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3deef9a7e9cc45f5e5cb0c3a8809bb73/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3deef9a7e9cc45f5e5cb0c3a8809bb73/AndroidManifest.xml:25:5-29:19
 MERGED from [com.hanks:passcodeview:0.1.2] /home/ld/.gradle/caches/transforms-1/files-1.1/passcodeview-0.1.2.aar/542292320f798613bf4cae85e47ae1fe/AndroidManifest.xml:11:5-15:19
@@ -115,101 +127,101 @@ MERGED from [com.android.support:support-compat:26.1.0] /home/ld/.gradle/caches/
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ld/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3ce78b5ce0aa7ed98c65a838cc04a517/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ld/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3ce78b5ce0aa7ed98c65a838cc04a517/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:24:9-35
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:27:9-35
 	android:label
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:22:9-41
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:25:9-41
 	android:roundIcon
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:23:9-54
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:26:9-54
 	android:icon
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:21:9-43
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:24:9-43
 	android:allowBackup
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:20:9-35
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:23:9-35
 	android:theme
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:25:9-40
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:28:9-40
 activity#slideshow.lab411.com.slideshow.ui.imagegrid.view.PhotoGridActivity
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:26:9-36:20
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:29:9-39:20
 	android:label
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:28:13-45
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:31:13-45
 	android:excludeFromRecents
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:30:13-46
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:33:13-46
 	android:theme
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:29:13-44
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:32:13-44
 	android:name
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:27:13-64
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:30:13-64
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:31:13-35:29
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:34:13-38:29
 action#android.intent.action.MAIN
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:32:17-68
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:35:17-68
 	android:name
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:32:25-66
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:34:17-76
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:37:17-76
 	android:name
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:34:27-74
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:37:27-74
 activity#slideshow.lab411.com.slideshow.ui.showphoto.view.ShowPhotoActivity
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:38:9-41:15
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:41:9-44:15
 	android:theme
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:40:13-56
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:43:13-56
 	android:name
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:39:13-64
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:42:13-64
 activity#slideshow.lab411.com.slideshow.ui.selectphoto.view.PhotoSelectActivity
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:42:9-45:15
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:45:9-48:15
 	android:label
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:44:13-49
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:47:13-49
 	android:name
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:43:13-68
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:46:13-68
 activity#slideshow.lab411.com.slideshow.ui.passcode.view.SetPasscodeActivity
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:46:9-73
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:49:9-73
 	android:name
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:46:19-71
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:49:19-71
 activity#slideshow.lab411.com.slideshow.ui.passcode.view.PasscodeUI
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:47:9-64
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:50:9-64
 	android:name
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:47:19-62
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:50:19-62
 activity#slideshow.lab411.com.slideshow.ui.passcode.view.PasscodeLogin
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:48:9-49:46
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:51:9-52:46
 	android:theme
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:49:13-44
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:52:13-44
 	android:name
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:48:19-65
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:51:19-65
 service#slideshow.lab411.com.slideshow.ui.imagegrid.service.RecordingService
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:51:9-52:68
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:54:9-55:68
 	android:name
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:52:13-66
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:55:13-66
 service#slideshow.lab411.com.slideshow.ui.imagegrid.service.StartPassCodeUIService
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:53:9-79
-	android:name
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:53:18-77
-service#org.eclipse.paho.android.service.MqttService
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:56:9-80
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:56:9-79
 	android:name
 		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:56:18-77
+service#org.eclipse.paho.android.service.MqttService
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:59:9-80
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:59:18-77
 service#slideshow.lab411.com.slideshow.mqtt.service.MQTTService
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:57:9-60
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:60:9-60
 	android:name
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:57:18-58
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:60:18-58
 receiver#slideshow.lab411.com.slideshow.mqtt.service.MQTTAction
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:58:9-65:20
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:61:9-68:20
 	android:name
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:58:19-58
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:61:19-58
 intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON+android.net.conn.CONNECTIVITY_CHANGE+resetservice
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:59:13-64:29
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:62:13-67:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:60:17-78
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:63:17-78
 	android:name
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:60:25-76
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:63:25-76
 action#android.intent.action.QUICKBOOT_POWERON
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:61:17-81
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:64:17-81
 	android:name
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:61:25-79
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:64:25-79
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:62:17-78
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:65:17-78
 	android:name
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:62:25-76
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:65:25-76
 action#resetservice
-ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:63:17-54
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:66:17-54
 	android:name
-		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:63:25-52
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:66:25-52
 uses-sdk
 INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml

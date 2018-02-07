@@ -20,6 +20,7 @@ import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.Binder;
 import android.os.Build;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
@@ -39,7 +40,11 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.MqttSecurityException;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
+import java.io.File;
+
 import slideshow.lab411.com.slideshow.base.BaseActivity;
+import slideshow.lab411.com.slideshow.ui.imagegrid.service.RecordingService;
+import slideshow.lab411.com.slideshow.ui.imagegrid.service.ServiceUtils;
 
 public class MQTTService extends Service {
 
@@ -249,17 +254,49 @@ public class MQTTService extends Service {
                    // Toast.makeText(getApplicationContext(), "MQTT Message:\n" + new String(msg.getPayload()), Toast.LENGTH_SHORT).show();
                     String msg_response = new String(msg.getPayload()).trim();
                     if(msg_response.equals(COMMAND_START)){
-                        publishMessageToBroker("start");
+                        if(!ServiceUtils.isMyServiceRunning(ServiceUtils.recording_serviceName, getApplicationContext()))
+                            onRecord(true);
                     }else if(msg_response.equals(COMMAND_STOP)){
-                        publishMessageToBroker("stop");
+                        onRecord(false);
                     }else if(msg_response.equals(GET_LOCATION)){
-                        publishMessageToBroker("location");
+                        publishMessageToBroker(getPosition());
                     }else if(msg_response.equals(CHECK_STATUS)){
                         publishMessageToBroker("online");
                     }
                 }
             });
         }
+    }
+
+    private void onRecord(boolean start) {
+        final Intent intent = new Intent(getApplicationContext(), RecordingService.class);
+        if (start) {
+            File folder = new File(Environment.getExternalStorageDirectory() + "/SlideShow");
+            if (!folder.exists()) {
+                //folder /SlideShow doesn't exist, create the folder
+                folder.mkdir();
+            }
+            getApplicationContext().startService(intent);
+        } else {
+            getApplicationContext().stopService(intent);
+        }
+    }
+
+    private String getPosition(){
+        GPSTracker gps = new GPSTracker(this);
+        double latitude = 0, longitude = 0;
+        if(gps.canGetLocation()){
+             latitude = gps.getLatitude();
+             longitude = gps.getLongitude();
+
+            Log.d(TAG, "Your Location is - \nLat: " + latitude + "\nLong: " + longitude);
+        }else{
+            // Can't get location.
+            // GPS or network is not enabled.
+            // Ask user to enable GPS/network in settings.
+            gps.showSettingsAlert();
+        }
+        return "position" + "_" + latitude + "_" + longitude;
     }
 
     public String getThread() {
