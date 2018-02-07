@@ -1,0 +1,296 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
+MERGED from [com.android.support:design:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3deef9a7e9cc45f5e5cb0c3a8809bb73/AndroidManifest.xml:17:1-31:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/ld/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/f069ee9d95771f9d34785dec7cfeac3a/AndroidManifest.xml:2:1-7:12
+MERGED from [:square_layout:] /home/ld/.gradle/caches/transforms-1/files-1.1/square_layout.aar/21080555901a3569a44d9733ab9aa087/AndroidManifest.xml:2:1-11:12
+MERGED from [com.hanks:passcodeview:0.1.2] /home/ld/.gradle/caches/transforms-1/files-1.1/passcodeview-0.1.2.aar/542292320f798613bf4cae85e47ae1fe/AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0ccfff7ddbf4b978e2b1fc1adc52dc26/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ld/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e601c845941c51533f4d0b3236dbd2d0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/7fb7109a4ce06f385476f83943e23a05/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e00cb402eab101fe6d43d5d2a187512f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/772242efec0d2de2221e84f01132cd00/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/12d126b8a633d1b6590772f3dcfa0001/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/aefb2bfcde03a6cf4916740f37c86dbc/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/01d08f3429891c48ab7069be4fc8d694/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/278f036ac8d29364088b8fc9621a78d1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/df2501892912b6ce81a053f8f24d27ee/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/3ca403e3fef385ce6558c6292da49952/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4dfba4bd9bc6639293a7c81045499183/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ld/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3ce78b5ce0aa7ed98c65a838cc04a517/AndroidManifest.xml:17:1-30:12
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
+	package
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:3:11-51
+		INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
+		INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
+		INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:1-69:12
+		INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:7:5-70
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.INTERNET
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:12:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:13:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:14:22-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:16:5-83
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:16:22-81
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:17:5-77
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:17:22-75
+application
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:19:5-67:19
+MERGED from [com.android.support:design:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3deef9a7e9cc45f5e5cb0c3a8809bb73/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3deef9a7e9cc45f5e5cb0c3a8809bb73/AndroidManifest.xml:25:5-29:19
+MERGED from [com.hanks:passcodeview:0.1.2] /home/ld/.gradle/caches/transforms-1/files-1.1/passcodeview-0.1.2.aar/542292320f798613bf4cae85e47ae1fe/AndroidManifest.xml:11:5-15:19
+MERGED from [com.hanks:passcodeview:0.1.2] /home/ld/.gradle/caches/transforms-1/files-1.1/passcodeview-0.1.2.aar/542292320f798613bf4cae85e47ae1fe/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0ccfff7ddbf4b978e2b1fc1adc52dc26/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0ccfff7ddbf4b978e2b1fc1adc52dc26/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ld/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e601c845941c51533f4d0b3236dbd2d0/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ld/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e601c845941c51533f4d0b3236dbd2d0/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:transition:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/7fb7109a4ce06f385476f83943e23a05/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/7fb7109a4ce06f385476f83943e23a05/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e00cb402eab101fe6d43d5d2a187512f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e00cb402eab101fe6d43d5d2a187512f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/772242efec0d2de2221e84f01132cd00/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/772242efec0d2de2221e84f01132cd00/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/12d126b8a633d1b6590772f3dcfa0001/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/12d126b8a633d1b6590772f3dcfa0001/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/aefb2bfcde03a6cf4916740f37c86dbc/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/aefb2bfcde03a6cf4916740f37c86dbc/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/01d08f3429891c48ab7069be4fc8d694/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/01d08f3429891c48ab7069be4fc8d694/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/278f036ac8d29364088b8fc9621a78d1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/278f036ac8d29364088b8fc9621a78d1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/df2501892912b6ce81a053f8f24d27ee/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/df2501892912b6ce81a053f8f24d27ee/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/3ca403e3fef385ce6558c6292da49952/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/3ca403e3fef385ce6558c6292da49952/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4dfba4bd9bc6639293a7c81045499183/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4dfba4bd9bc6639293a7c81045499183/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ld/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3ce78b5ce0aa7ed98c65a838cc04a517/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ld/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3ce78b5ce0aa7ed98c65a838cc04a517/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:22:9-41
+	android:roundIcon
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:23:9-54
+	android:icon
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:21:9-43
+	android:allowBackup
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:25:9-40
+activity#slideshow.lab411.com.slideshow.ui.imagegrid.view.PhotoGridActivity
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:26:9-36:20
+	android:label
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:28:13-45
+	android:excludeFromRecents
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:30:13-46
+	android:theme
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:29:13-44
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:27:13-64
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:32:17-68
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:34:17-76
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:34:27-74
+activity#slideshow.lab411.com.slideshow.ui.showphoto.view.ShowPhotoActivity
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:38:9-41:15
+	android:theme
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:40:13-56
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:39:13-64
+activity#slideshow.lab411.com.slideshow.ui.selectphoto.view.PhotoSelectActivity
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:42:9-45:15
+	android:label
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:44:13-49
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:43:13-68
+activity#slideshow.lab411.com.slideshow.ui.passcode.view.SetPasscodeActivity
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:46:9-73
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:46:19-71
+activity#slideshow.lab411.com.slideshow.ui.passcode.view.PasscodeUI
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:47:9-64
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:47:19-62
+activity#slideshow.lab411.com.slideshow.ui.passcode.view.PasscodeLogin
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:48:9-49:46
+	android:theme
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:48:19-65
+service#slideshow.lab411.com.slideshow.ui.imagegrid.service.RecordingService
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:51:9-52:68
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:52:13-66
+service#slideshow.lab411.com.slideshow.ui.imagegrid.service.StartPassCodeUIService
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:53:9-79
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:53:18-77
+service#org.eclipse.paho.android.service.MqttService
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:56:9-80
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:56:18-77
+service#slideshow.lab411.com.slideshow.mqtt.service.MQTTService
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:57:9-60
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:57:18-58
+receiver#slideshow.lab411.com.slideshow.mqtt.service.MQTTAction
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:58:9-65:20
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:58:19-58
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON+android.net.conn.CONNECTIVITY_CHANGE+resetservice
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:59:13-64:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:60:17-78
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:60:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:61:17-81
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:61:25-79
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:62:17-78
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:62:25-76
+action#resetservice
+ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:63:17-54
+	android:name
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml:63:25-52
+uses-sdk
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3deef9a7e9cc45f5e5cb0c3a8809bb73/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3deef9a7e9cc45f5e5cb0c3a8809bb73/AndroidManifest.xml:21:5-23:62
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/ld/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/f069ee9d95771f9d34785dec7cfeac3a/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/ld/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/f069ee9d95771f9d34785dec7cfeac3a/AndroidManifest.xml:5:5-43
+MERGED from [:square_layout:] /home/ld/.gradle/caches/transforms-1/files-1.1/square_layout.aar/21080555901a3569a44d9733ab9aa087/AndroidManifest.xml:7:5-9:41
+MERGED from [:square_layout:] /home/ld/.gradle/caches/transforms-1/files-1.1/square_layout.aar/21080555901a3569a44d9733ab9aa087/AndroidManifest.xml:7:5-9:41
+MERGED from [com.hanks:passcodeview:0.1.2] /home/ld/.gradle/caches/transforms-1/files-1.1/passcodeview-0.1.2.aar/542292320f798613bf4cae85e47ae1fe/AndroidManifest.xml:7:5-9:41
+MERGED from [com.hanks:passcodeview:0.1.2] /home/ld/.gradle/caches/transforms-1/files-1.1/passcodeview-0.1.2.aar/542292320f798613bf4cae85e47ae1fe/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0ccfff7ddbf4b978e2b1fc1adc52dc26/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0ccfff7ddbf4b978e2b1fc1adc52dc26/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ld/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e601c845941c51533f4d0b3236dbd2d0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ld/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e601c845941c51533f4d0b3236dbd2d0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/7fb7109a4ce06f385476f83943e23a05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/7fb7109a4ce06f385476f83943e23a05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e00cb402eab101fe6d43d5d2a187512f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e00cb402eab101fe6d43d5d2a187512f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/772242efec0d2de2221e84f01132cd00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/772242efec0d2de2221e84f01132cd00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/12d126b8a633d1b6590772f3dcfa0001/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/12d126b8a633d1b6590772f3dcfa0001/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/aefb2bfcde03a6cf4916740f37c86dbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/aefb2bfcde03a6cf4916740f37c86dbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/01d08f3429891c48ab7069be4fc8d694/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/01d08f3429891c48ab7069be4fc8d694/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/278f036ac8d29364088b8fc9621a78d1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/278f036ac8d29364088b8fc9621a78d1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/df2501892912b6ce81a053f8f24d27ee/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/df2501892912b6ce81a053f8f24d27ee/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/3ca403e3fef385ce6558c6292da49952/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/3ca403e3fef385ce6558c6292da49952/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4dfba4bd9bc6639293a7c81045499183/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4dfba4bd9bc6639293a7c81045499183/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ld/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3ce78b5ce0aa7ed98c65a838cc04a517/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ld/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3ce78b5ce0aa7ed98c65a838cc04a517/AndroidManifest.xml:20:5-22:41
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
+INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3deef9a7e9cc45f5e5cb0c3a8809bb73/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
+		INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
+		ADDED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
+		INJECTED from /media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3deef9a7e9cc45f5e5cb0c3a8809bb73/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0ccfff7ddbf4b978e2b1fc1adc52dc26/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0ccfff7ddbf4b978e2b1fc1adc52dc26/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/7fb7109a4ce06f385476f83943e23a05/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/7fb7109a4ce06f385476f83943e23a05/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e00cb402eab101fe6d43d5d2a187512f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e00cb402eab101fe6d43d5d2a187512f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/772242efec0d2de2221e84f01132cd00/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/772242efec0d2de2221e84f01132cd00/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/12d126b8a633d1b6590772f3dcfa0001/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/12d126b8a633d1b6590772f3dcfa0001/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/aefb2bfcde03a6cf4916740f37c86dbc/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/aefb2bfcde03a6cf4916740f37c86dbc/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/01d08f3429891c48ab7069be4fc8d694/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/01d08f3429891c48ab7069be4fc8d694/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/278f036ac8d29364088b8fc9621a78d1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/278f036ac8d29364088b8fc9621a78d1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/df2501892912b6ce81a053f8f24d27ee/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/df2501892912b6ce81a053f8f24d27ee/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/3ca403e3fef385ce6558c6292da49952/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/3ca403e3fef385ce6558c6292da49952/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4dfba4bd9bc6639293a7c81045499183/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4dfba4bd9bc6639293a7c81045499183/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3deef9a7e9cc45f5e5cb0c3a8809bb73/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /home/ld/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3deef9a7e9cc45f5e5cb0c3a8809bb73/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/ld/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3ce78b5ce0aa7ed98c65a838cc04a517/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/ld/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3ce78b5ce0aa7ed98c65a838cc04a517/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/ld/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/3ce78b5ce0aa7ed98c65a838cc04a517/AndroidManifest.xml:26:13-58

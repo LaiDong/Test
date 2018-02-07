@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="square_layout:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/square_layout.aar/21080555901a3569a44d9733ab9aa087/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/square_layout.aar/21080555901a3569a44d9733ab9aa087/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

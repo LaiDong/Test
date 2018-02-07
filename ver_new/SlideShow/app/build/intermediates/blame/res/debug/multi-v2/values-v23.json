@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/ttcn-88/Desktop/00.Silent_Recording/25122017/slideshow_sourcecode/SlideShow/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/home/ttcn-88/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2549a372d98b753861c1e8685972afa6/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,20,33,34,35,36,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "114,249,384,459,546,1336,2138,2265,2370,2485,2592",
+                        "endLines": "3,4,5,6,19,32,33,34,35,36,37",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "244,379,454,541,1331,2133,2260,2365,2480,2587,2700"
+                    }
+                },
+                {
+                    "source": "/home/ttcn-88/Desktop/00.Silent_Recording/25122017/slideshow_sourcecode/SlideShow/app/src/main/res/values-v23/colors.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/src/main/res/values-v23/colors.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                },
+                {
+                    "source": "/home/ld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0ccfff7ddbf4b978e2b1fc1adc52dc26/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,20,33,34,35,36,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "114,249,384,459,546,1336,2138,2265,2370,2485,2592",
+                        "endLines": "3,4,5,6,19,32,33,34,35,36,37",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "244,379,454,541,1331,2133,2260,2365,2480,2587,2700"
+                    }
+                }
+            ]
+        }
+    ]
+}

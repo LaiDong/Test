@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <SwitchPreference
+            android:key="passcode_pref"
+            android:title="@string/passcode_title"/>
+
+        <Preference
+            android:key="change_passcode_pref"
+            android:title="@string/change_passcode"/>
+
+</PreferenceScreen>

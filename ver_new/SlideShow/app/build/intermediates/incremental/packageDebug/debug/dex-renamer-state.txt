@@ -1,0 +1,4 @@
+#Wed Feb 07 15:53:59 ICT 2018
+base.0=/media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

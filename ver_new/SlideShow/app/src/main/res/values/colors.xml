@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4C6A92</color>
+    <color name="colorPrimaryDark">#466389</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlack80">#CC000000</color>
+    <color name="colorBlack10">#25000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#333333</color>
+    <color name="colorGreyLight">#4A4A4A</color>
+
+    <!--StatusBar-->
+    <color name="statusBarColor">@android:color/transparent</color>
+
+    <!--Photo.Toolbar-->
+    <color name="photo_toolbar_text_color">@color/colorWhite</color>
+    <color name="photo_toolbar_title_text_color">@color/colorGrey</color>
+    <color name="photo_toolbar_subtitle_text_color">@color/colorGreyLight</color>
+</resources>

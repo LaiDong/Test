@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Feb 07 15:53:59 ICT 2018
+0.baseType=DIRECTORY
+0.base=/media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1
