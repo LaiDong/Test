@@ -38,7 +38,7 @@
             "outputFile": "/media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/ld/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4dfba4bd9bc6639293a7c81045499183/res/values-v16/values-v16.xml",
+                    "source": "/home/ld/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8a3475dbc7fbc999f711f54528eab1a7/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -48,7 +48,7 @@
                     }
                 },
                 {
-                    "source": "/home/ld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0ccfff7ddbf4b978e2b1fc1adc52dc26/res/values-v16/values-v16.xml",
+                    "source": "/home/ld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b4cfffeb5918b66c7a4b80ce7a18f0b1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

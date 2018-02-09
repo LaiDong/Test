@@ -38,7 +38,7 @@
             "outputFile": "/media/ld/backup/4.LaiDong/Task2018/Test/ver_new/SlideShow/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/ld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0ccfff7ddbf4b978e2b1fc1adc52dc26/res/values-land/values-land.xml",
+                    "source": "/home/ld/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b4cfffeb5918b66c7a4b80ce7a18f0b1/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -48,7 +48,7 @@
                     }
                 },
                 {
-                    "source": "/home/ld/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/3deef9a7e9cc45f5e5cb0c3a8809bb73/res/values-land/values-land.xml",
+                    "source": "/home/ld/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/be568c8af0ac78043e019ae4a5592d4d/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

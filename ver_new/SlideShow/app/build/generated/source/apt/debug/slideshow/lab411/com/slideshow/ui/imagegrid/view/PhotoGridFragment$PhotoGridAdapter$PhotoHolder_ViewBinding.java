@@ -17,7 +17,7 @@ import slideshow.lab411.com.slideshow.R;
 public class PhotoGridFragment$PhotoGridAdapter$PhotoHolder_ViewBinding implements Unbinder {
   private PhotoGridFragment.PhotoGridAdapter.PhotoHolder target;
 
-  private View view2131230857;
+  private View view2131230862;
 
   @UiThread
   public PhotoGridFragment$PhotoGridAdapter$PhotoHolder_ViewBinding(final PhotoGridFragment.PhotoGridAdapter.PhotoHolder target,
@@ -27,7 +27,7 @@ public class PhotoGridFragment$PhotoGridAdapter$PhotoHolder_ViewBinding implemen
     View view;
     view = Utils.findRequiredView(source, R.id.photo_layout, "field 'mPhotoBgr', method 'onClick', and method 'onLongClick'");
     target.mPhotoBgr = Utils.castView(view, R.id.photo_layout, "field 'mPhotoBgr'", SquareLayout.class);
-    view2131230857 = view;
+    view2131230862 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -55,8 +55,8 @@ public class PhotoGridFragment$PhotoGridAdapter$PhotoHolder_ViewBinding implemen
     target.mImg = null;
     target.mCheckBox = null;
 
-    view2131230857.setOnClickListener(null);
-    view2131230857.setOnLongClickListener(null);
-    view2131230857 = null;
+    view2131230862.setOnClickListener(null);
+    view2131230862.setOnLongClickListener(null);
+    view2131230862 = null;
   }
 }

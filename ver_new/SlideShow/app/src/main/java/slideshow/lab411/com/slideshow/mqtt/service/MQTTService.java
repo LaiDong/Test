@@ -26,6 +26,7 @@ import android.os.IBinder;
 import android.os.Message;
 import android.os.SystemClock;
 import android.support.annotation.Nullable;
+import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -41,6 +42,8 @@ import org.eclipse.paho.client.mqttv3.MqttSecurityException;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
 import java.io.File;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import slideshow.lab411.com.slideshow.base.BaseActivity;
 import slideshow.lab411.com.slideshow.ui.imagegrid.service.RecordingService;
@@ -58,19 +61,24 @@ public class MQTTService extends Service {
     private MQTTBinder mqttBinder;
     private MQTTBroadcastReceiver mqttBroadcastReceiver;
     private long lastTimePublishMessageToBroker = 0;
-    private final String COMMAND_START = "command_start";
-    private final String COMMAND_STOP = "command_stop";
-    private final String GET_LOCATION = "get_location";
-    private final String POSITION_X_Y = "position_x_y";
-    private final String CHECK_STATUS = "check_status";
-    private final String STATUS_ONLINE = "status_online";
+    String strCommandStatus = "update_status";
+    String strCommandStopStatus = "stop_update_status";
+    String strCommandStart = "command_start";
+    String strCommandStop = "command_stop";
+    String strCommandGetLocation = "get_location";
+    String strStatusOn = "status_online";
+    String strStatusRecording = "status_recording";
+    String strStatusNotRecording = "status_not_recording";
+
+    private Timer mTimer = null;
+    private TimerTask mIncrementTimerTask;
 
     Handler hand = new Handler() {
         public void handleMessage(Message paramAnonymousMessage) {
             int i = paramAnonymousMessage.what;
             if (i == 5) {
                 lastTimePublishMessageToBroker = System.currentTimeMillis();
-                publishMessageToBroker("status_online");
+                publishMessageToBroker(strStatusOn);
             }
         }
     };
@@ -80,7 +88,7 @@ public class MQTTService extends Service {
         if (mqttClient != null) {
             byte[] payload = status.getBytes();
             try {
-                mqttClient.publish("/SlideShowControl", new MqttMessage(payload));
+                mqttClient.publish("/SlideShowControl_" + getDeviceId(), new MqttMessage(payload));
             } catch (MqttException e) {
                 e.printStackTrace();
             }
@@ -115,6 +123,8 @@ public class MQTTService extends Service {
         registerReceiver(mqttBroadcastReceiver, new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION));
         mConnMan = (ConnectivityManager) getSystemService(CONNECTIVITY_SERVICE);
 
+        Log.d(TAG, "imei: " + getDeviceId());
+
     }
 
     @Override
@@ -145,11 +155,11 @@ public class MQTTService extends Service {
         options.setConnectionTimeout(0);
         try {
 //            if(mqttClient == null)
-            mqttClient = new MqttAsyncClient("tcp://iot.eclipse.org:1883", deviceId, new MemoryPersistence());
+            mqttClient = new MqttAsyncClient("tcp://210.245.26.185:1883", deviceId, new MemoryPersistence());
             token = mqttClient.connect();
             token.waitForCompletion(35000);
             mqttClient.setCallback(new MqttEventCallback());
-            token = mqttClient.subscribe("/SlideShowControl", 1);
+            token = mqttClient.subscribe("/SlideShowControl_" + getDeviceId(), 1);
             token.waitForCompletion(50000);
         } catch (MqttSecurityException e) {
             e.printStackTrace();
@@ -178,7 +188,7 @@ public class MQTTService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.v(TAG, "onStartCommand()");
-        new SystemAppRunning().start();
+      //  new SystemAppRunning().start();
         NotificationManager nManager = ((NotificationManager) this.getSystemService(Context.NOTIFICATION_SERVICE));
         Notification notification = new Notification();
         if (Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN) {
@@ -186,6 +196,44 @@ public class MQTTService extends Service {
         }
         startForeground(0, notification);
         return START_STICKY;
+    }
+
+    private String getDeviceId(){
+        TelephonyManager telephonyManager = (TelephonyManager)getSystemService(Context.TELEPHONY_SERVICE);
+        return telephonyManager.getDeviceId();
+    }
+
+    private void startTimer() {
+         mTimer = new Timer();
+         mIncrementTimerTask = new TimerTask() {
+            @Override
+            public void run() {
+                try {
+                        if (mqttClient != null) {
+                            Log.v(TAG, "MQTTConnected:" + mqttClient.isConnected());
+
+                            Thread.sleep(3000);
+                            if (!mqttClient.isConnected()) {
+//                            doConnect();
+                            } else {
+                                if (System.currentTimeMillis() - lastTimePublishMessageToBroker >= 5000) {
+                                    MQTTService.this.hand.sendEmptyMessage(5);
+                                    if(!ServiceUtils.isMyServiceRunning(ServiceUtils.recording_serviceName, getApplicationContext())){
+                                        publishMessageToBroker(strStatusNotRecording);
+                                    }else{
+                                        publishMessageToBroker(strStatusRecording);
+                                    }
+                                }
+                            }
+                        } else {
+                            init();
+                        }
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        };
+        mTimer.scheduleAtFixedRate(mIncrementTimerTask, 5000, 1000);
     }
 
 
@@ -253,15 +301,28 @@ public class MQTTService extends Service {
 //                    startActivity(launchA);
                    // Toast.makeText(getApplicationContext(), "MQTT Message:\n" + new String(msg.getPayload()), Toast.LENGTH_SHORT).show();
                     String msg_response = new String(msg.getPayload()).trim();
-                    if(msg_response.equals(COMMAND_START)){
-                        if(!ServiceUtils.isMyServiceRunning(ServiceUtils.recording_serviceName, getApplicationContext()))
+                    if(msg_response.equals(strCommandStart)){
+                        if(!ServiceUtils.isMyServiceRunning(ServiceUtils.recording_serviceName, getApplicationContext())){
                             onRecord(true);
-                    }else if(msg_response.equals(COMMAND_STOP)){
+                        }
+                    }else if(msg_response.equals(strCommandStop)){
                         onRecord(false);
-                    }else if(msg_response.equals(GET_LOCATION)){
+                        publishMessageToBroker(strStatusNotRecording);
+                    }else if(msg_response.equals(strCommandGetLocation)){
                         publishMessageToBroker(getPosition());
-                    }else if(msg_response.equals(CHECK_STATUS)){
-                        publishMessageToBroker("online");
+                    }else if(msg_response.equals(strCommandStatus)){
+                        startTimer();
+                        publishMessageToBroker(strStatusOn);
+                        if(!ServiceUtils.isMyServiceRunning(ServiceUtils.recording_serviceName, getApplicationContext())){
+                            publishMessageToBroker(strStatusNotRecording);
+                        }else{
+                            publishMessageToBroker(strStatusRecording);
+                        }
+                    }else if(msg_response.equals(strCommandStopStatus)){
+                        if (mIncrementTimerTask != null) {
+                            mIncrementTimerTask.cancel();
+                            mIncrementTimerTask = null;
+                        }
                     }
                 }
             });
@@ -320,7 +381,6 @@ public class MQTTService extends Service {
         super.onTaskRemoved(rootIntent);
         Log.v(TAG, "resetservice");
         restartService();
-//        sendBroadcast(new Intent("resetservice"));
     }
 
     @Override
@@ -328,13 +388,18 @@ public class MQTTService extends Service {
         super.onDestroy();
         Log.v(TAG, "resetservice");
         restartService();
-//        unregisterReceiver(mqttBroadcastReceiver);
-//        try {
-//            mqttClient.close();
-//        } catch (MqttException e) {
-//            e.printStackTrace();
-//        }
-//        sendBroadcast(new Intent("resetservice"));
+
+        if (mIncrementTimerTask != null) {
+            mIncrementTimerTask.cancel();
+            mIncrementTimerTask = null;
+        }
+/*        unregisterReceiver(mqttBroadcastReceiver);
+        try {
+            mqttClient.close();
+        } catch (MqttException e) {
+            e.printStackTrace();
+        }
+        sendBroadcast(new Intent("resetservice"));*/
     }
 
     @Nullable

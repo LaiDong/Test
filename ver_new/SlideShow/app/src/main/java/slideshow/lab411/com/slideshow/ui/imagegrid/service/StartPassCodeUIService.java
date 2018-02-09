@@ -1,6 +1,5 @@
 package slideshow.lab411.com.slideshow.ui.imagegrid.service;
 
-import android.app.IntentService;
 import android.app.Service;
 import android.content.Intent;
 import android.os.Handler;
@@ -11,7 +10,6 @@ import android.util.Log;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import slideshow.lab411.com.slideshow.ui.imagegrid.database.DBHelper;
 import slideshow.lab411.com.slideshow.ui.passcode.model.SharedPrefsHelper;
 
 /**

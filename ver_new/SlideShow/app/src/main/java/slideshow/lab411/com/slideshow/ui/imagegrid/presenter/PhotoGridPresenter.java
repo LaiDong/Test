@@ -1,6 +1,7 @@
 package slideshow.lab411.com.slideshow.ui.imagegrid.presenter;
 
 import android.content.Context;
+import android.content.Intent;
 
 import java.util.ArrayList;
 import java.util.List;

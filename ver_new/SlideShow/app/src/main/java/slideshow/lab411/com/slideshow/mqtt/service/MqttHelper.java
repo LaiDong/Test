@@ -5,6 +5,7 @@ package slideshow.lab411.com.slideshow.mqtt.service;
  */
 
 import android.content.Context;
+import android.telephony.TelephonyManager;
 import android.util.Log;
 
 import org.eclipse.paho.android.service.MqttAndroidClient;
@@ -20,16 +21,18 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 public class MqttHelper {
     public MqttAndroidClient mqttAndroidClient;
 
-    final String serverUri = "tcp://iot.eclipse.org:1883";
+    final String serverUri = "tcp://210.245.26.185:1883";
 
-    final String clientId = "ThangDh";
+    final String clientId = "TTCN";
     final String subscriptionTopic = "/SlideShowControl";
+    private Context mContext;
 
     final String username = "xxxxxxx";
     final String password = "yyyyyyy";
 
     public MqttHelper(Context context){
         mqttAndroidClient = new MqttAndroidClient(context, serverUri, clientId);
+        this.mContext = context;
         mqttAndroidClient.setCallback(new MqttCallbackExtended() {
             @Override
             public void connectComplete(boolean b, String s) {
@@ -89,10 +92,14 @@ public class MqttHelper {
         }
     }
 
+    private String getDeviceId(){
+        TelephonyManager telephonyManager = (TelephonyManager) mContext.getSystemService(Context.TELEPHONY_SERVICE);
+        return telephonyManager.getDeviceId();
+    }
 
     private void subscribeToTopic() {
         try {
-            mqttAndroidClient.subscribe(subscriptionTopic, 0, null, new IMqttActionListener() {
+            mqttAndroidClient.subscribe(subscriptionTopic + "_" + getDeviceId(), 0, null, new IMqttActionListener() {
                 @Override
                 public void onSuccess(IMqttToken asyncActionToken) {
                     Log.w("Mqtt","Subscribed!");

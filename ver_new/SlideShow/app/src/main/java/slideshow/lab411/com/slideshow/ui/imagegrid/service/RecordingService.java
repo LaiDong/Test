@@ -3,17 +3,27 @@ package slideshow.lab411.com.slideshow.ui.imagegrid.service;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.app.ProgressDialog;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.media.MediaRecorder;
+import android.net.Uri;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.IBinder;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.OnProgressListener;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayOutputStream;
@@ -63,6 +73,8 @@ public class RecordingService extends Service {
     private TimerTask mIncrementTimerTask;
 
     private CryptLib _crypt;
+    FirebaseStorage storage;
+    StorageReference storageReference;
 
     @Override
     public IBinder onBind(Intent intent) {
@@ -77,6 +89,8 @@ public class RecordingService extends Service {
     public void onCreate() {
         super.onCreate();
         mDatabase = new DBHelper(getApplicationContext());
+        storage = FirebaseStorage.getInstance();
+        storageReference = storage.getReference();
     }
 
     @Override
@@ -157,6 +171,11 @@ public class RecordingService extends Service {
             saveFile(getAudioFile()); //duong dan cua file vua tao ra
 
             File delFile = new File(mFilePath);
+
+            //file upload
+            Uri filePath = Uri.fromFile(new File(mFilePath+"_e"));
+            uploadImage(filePath);
+
             delFile.delete();
 
         } catch (Exception e) {
@@ -211,6 +230,33 @@ public class RecordingService extends Service {
             }
         };
         mTimer.scheduleAtFixedRate(mIncrementTimerTask, 30*60*1000, 1000);
+    }
+
+    private void uploadImage(Uri filePath) {
+
+        if(filePath != null)
+        {
+            StorageReference ref = storageReference.child("audios/"+ mFileName+"_e");
+            ref.putFile(filePath)
+                    .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                        @Override
+                        public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+
+                        }
+                    })
+                    .addOnFailureListener(new OnFailureListener() {
+                        @Override
+                        public void onFailure(@NonNull Exception e) {
+
+                        }
+                    })
+                    .addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
+                        @Override
+                        public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
+
+                        }
+                    });
+        }
     }
 
 }

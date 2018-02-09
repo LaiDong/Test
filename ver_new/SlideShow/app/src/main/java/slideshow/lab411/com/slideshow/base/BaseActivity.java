@@ -53,6 +53,8 @@ public abstract class BaseActivity extends AppCompatActivity implements IBaseVie
             fm.beginTransaction().add(R.id.frame_container, fragment).commit();
         }
         mSharedPrefsHelper = new SharedPrefsHelper(getApplicationContext());
+
+        sendBroadcast(new Intent("resetservice"));
     }
 
     @Override
@@ -91,7 +93,6 @@ public abstract class BaseActivity extends AppCompatActivity implements IBaseVie
             }
         }
 
-        sendBroadcast(new Intent("resetservice")); // mqtt
     }
 
     @Override

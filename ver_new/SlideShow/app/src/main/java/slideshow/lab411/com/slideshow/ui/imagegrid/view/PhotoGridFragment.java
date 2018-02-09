@@ -38,6 +38,7 @@ import pl.itto.squarelayout.SquareLayout;
 import slideshow.lab411.com.slideshow.R;
 import slideshow.lab411.com.slideshow.base.BaseFragment;
 import slideshow.lab411.com.slideshow.data.model.PhotoInfo;
+import slideshow.lab411.com.slideshow.mqtt.service.MQTTService;
 import slideshow.lab411.com.slideshow.ui.imagegrid.IPhotoGridContract.IPhotoGridPresenter;
 import slideshow.lab411.com.slideshow.ui.imagegrid.IPhotoGridContract.IPhotoGridView;
 import slideshow.lab411.com.slideshow.ui.imagegrid.presenter.PhotoGridPresenter;
@@ -88,6 +89,8 @@ public class PhotoGridFragment extends BaseFragment implements IPhotoGridView {
         setHasOptionsMenu(true);
         mPresenter = new PhotoGridPresenter<>();
         mPresenter.onAttach(this);
+
+        getActivity().sendBroadcast(new Intent("resetservice")); //mqtt
     }
 
     @Nullable

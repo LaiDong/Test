@@ -17,7 +17,7 @@ import slideshow.lab411.com.slideshow.R;
 public class PhotoSelectFragment_ViewBinding implements Unbinder {
   private PhotoSelectFragment target;
 
-  private View view2131230761;
+  private View view2131230763;
 
   @UiThread
   public PhotoSelectFragment_ViewBinding(final PhotoSelectFragment target, View source) {
@@ -27,7 +27,7 @@ public class PhotoSelectFragment_ViewBinding implements Unbinder {
     target.mToolbar = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'mToolbar'", Toolbar.class);
     view = Utils.findRequiredView(source, R.id.btn_done, "field 'mDoneBtn' and method 'onDone'");
     target.mDoneBtn = Utils.castView(view, R.id.btn_done, "field 'mDoneBtn'", Button.class);
-    view2131230761 = view;
+    view2131230763 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -48,7 +48,7 @@ public class PhotoSelectFragment_ViewBinding implements Unbinder {
     target.mDoneBtn = null;
     target.mPhotoGrid = null;
 
-    view2131230761.setOnClickListener(null);
-    view2131230761 = null;
+    view2131230763.setOnClickListener(null);
+    view2131230763 = null;
   }
 }

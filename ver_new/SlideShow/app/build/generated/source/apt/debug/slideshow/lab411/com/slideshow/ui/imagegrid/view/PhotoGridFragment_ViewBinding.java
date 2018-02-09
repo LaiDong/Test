@@ -18,7 +18,7 @@ import slideshow.lab411.com.slideshow.R;
 public class PhotoGridFragment_ViewBinding implements Unbinder {
   private PhotoGridFragment target;
 
-  private View view2131230796;
+  private View view2131230799;
 
   @UiThread
   public PhotoGridFragment_ViewBinding(final PhotoGridFragment target, View source) {
@@ -30,7 +30,7 @@ public class PhotoGridFragment_ViewBinding implements Unbinder {
     target.mPhotoGrid = Utils.findRequiredViewAsType(source, R.id.photo_grid, "field 'mPhotoGrid'", RecyclerView.class);
     target.mNoPhotoLayout = Utils.findRequiredViewAsType(source, R.id.no_photo_layout, "field 'mNoPhotoLayout'", RelativeLayout.class);
     view = Utils.findRequiredView(source, R.id.fab_slide_show, "method 'onfabClick'");
-    view2131230796 = view;
+    view2131230799 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -51,7 +51,7 @@ public class PhotoGridFragment_ViewBinding implements Unbinder {
     target.mPhotoGrid = null;
     target.mNoPhotoLayout = null;
 
-    view2131230796.setOnClickListener(null);
-    view2131230796 = null;
+    view2131230799.setOnClickListener(null);
+    view2131230799 = null;
   }
 }
